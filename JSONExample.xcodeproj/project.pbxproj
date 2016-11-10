@@ -12,6 +12,7 @@
 		EDE3421B1DD3D4D3009BCE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE342191DD3D4D3009BCE54 /* Main.storyboard */; };
 		EDE3421D1DD3D4D3009BCE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE3421C1DD3D4D3009BCE54 /* Assets.xcassets */; };
 		EDE342201DD3D4D3009BCE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE3421E1DD3D4D3009BCE54 /* LaunchScreen.storyboard */; };
+		EDE342291DD3D7A4009BCE54 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = EDE342281DD3D7A4009BCE54 /* example.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EDE3421C1DD3D4D3009BCE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE3421F1DD3D4D3009BCE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE342211DD3D4D3009BCE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE342281DD3D7A4009BCE54 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				EDE342151DD3D4D3009BCE54 /* AppDelegate.swift */,
 				EDE342171DD3D4D3009BCE54 /* ViewController.swift */,
+				EDE342271DD3D4DC009BCE54 /* Supporting File */,
+			);
+			path = JSONExample;
+			sourceTree = "<group>";
+		};
+		EDE342271DD3D4DC009BCE54 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				EDE342281DD3D7A4009BCE54 /* example.json */,
 				EDE342191DD3D4D3009BCE54 /* Main.storyboard */,
 				EDE3421C1DD3D4D3009BCE54 /* Assets.xcassets */,
 				EDE3421E1DD3D4D3009BCE54 /* LaunchScreen.storyboard */,
 				EDE342211DD3D4D3009BCE54 /* Info.plist */,
 			);
-			path = JSONExample;
+			name = "Supporting File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE342291DD3D7A4009BCE54 /* example.json in Resources */,
 				EDE342201DD3D4D3009BCE54 /* LaunchScreen.storyboard in Resources */,
 				EDE3421D1DD3D4D3009BCE54 /* Assets.xcassets in Resources */,
 				EDE3421B1DD3D4D3009BCE54 /* Main.storyboard in Resources */,
